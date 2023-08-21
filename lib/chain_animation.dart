@@ -1,7 +1,8 @@
 library chain_animation;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/chain_animation.dart';
+export 'src/chain/chain_animation_helper.dart';
+export 'src/chain/chain_animation_controller.dart';
+export 'src/chain/chain_animation.dart';
+export 'src/chain/chain_animated_widget.dart';
+export 'src/chain/animate/bounce.dart';
